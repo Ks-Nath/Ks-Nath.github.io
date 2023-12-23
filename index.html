@@ -11,12 +11,30 @@
         type="module"
         src="https://pyscript.net/releases/2023.11.2/core.js">
         </script>
+    <py-env>
+        - matplotlib
+    </py-env>
 </head>
 <body>
-    <div>
-    <script type="py">
-        print("How u doi")
-    </script>
-    </div>
+  <div id="matplotlib-lineplot"></div>
+        <py-script output="matplotlib-lineplot">
+            # Python Code
+           
+            # importing the matplotlib library
+            import matplotlib.pyplot as plt
+            fig, ax = plt.subplots()
+            # x axis
+            x = ["Python", "C++", "JavaScript", "Golang"]
+            # y axis
+            y = [10, 5, 9, 7]
+            plt.plot(x, y, marker='o', linestyle='-', color='b')
+            # Naming the x-label
+            plt.xlabel('Language')
+            # Naming the y-label
+            plt.ylabel('Score')
+            # Naming the title of the plot
+            plt.title('Language vs Score')
+            fig
+         </py-script>
 </body>
 </html>
