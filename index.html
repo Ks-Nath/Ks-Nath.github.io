@@ -8,28 +8,13 @@
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.23.2/full/pyodide.js"></script>
-    <script type="text/javascript">
-      async function main() {
-        const pyodide = await loadPyodide()
-        await pyodide.loadPackage("micropip");
-        const micropip = pyodide.pyimport("micropip");
-        await micropip.install("matplotlib");
-        await pyodide.runPython(`
-        import matplotlib.pyplot as plt
-        `);
-      }
-    main();
-    </script>
   <py-config> 
       packages = ["matplotlib"]
   </py-config>
-  <div id="matplotlib-lineplot"></div>
-        <py-script output="matplotlib-lineplot">
-            # Python Code
-           
+  <py-script>
             # importing the matplotlib library
             import matplotlib.pyplot as plt
+            from pyscript import display
             fig, ax = plt.subplots()
             # x axis
             x = ["Python", "C++", "JavaScript", "Golang"]
@@ -42,7 +27,7 @@
             plt.ylabel('Score')
             # Naming the title of the plot
             plt.title('Language vs Score')
-            fig
+            display(fig)
          </py-script>
 </body>
 </html>
