@@ -8,6 +8,19 @@
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 <body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.23.2/full/pyodide.js"></script>
+    <script type="text/javascript">
+      async function main() {
+        const pyodide = await loadPyodide()
+        await pyodide.loadPackage("micropip");
+        const micropip = pyodide.pyimport("micropip");
+        await micropip.install("matplotlib");
+        await pyodide.runPython(`
+        import matplotlib.pyplot as plt
+        `);
+      }
+    main();
+    </script>
   <py-config> 
       packages = ["matplotlib"]
   </py-config>
