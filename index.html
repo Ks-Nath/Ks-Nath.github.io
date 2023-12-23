@@ -11,11 +11,11 @@
         type="module"
         src="https://pyscript.net/releases/2023.11.2/core.js">
         </script>
-    <py-env>
-        - matplotlib
-    </py-env>
 </head>
 <body>
+  <py-config> 
+      packages = ["pandas"]
+  </py-config>
   <div id="matplotlib-lineplot"></div>
         <py-script output="matplotlib-lineplot">
             # Python Code
