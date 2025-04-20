@@ -28,7 +28,7 @@ Downlink interception is one of the most accessible and least legally ambiguous 
 </ul>
 
 <h3>What we are about to do </h3>
-Decode real-time weather images from NOAA satellites (NOAA-15, 18, or 19) transmitting APT signals (~137 MHz) using an SDR (like RTL-SDR).
+Decode real-time weather images from NOAA satellites (NOAA-15, 18, or 19) transmitting APT signals (~137 MHz) using an SDR (like RTL-SDR). This can be done with relatively low cost and at home.  
 
 <h2>What You Need</h2>
 <h4>Hardware:</h4>
