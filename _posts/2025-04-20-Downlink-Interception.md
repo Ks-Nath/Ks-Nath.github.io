@@ -18,5 +18,7 @@ Always ensure that any experimentation or research is conducted within the bound
 Downlink interception is one of the most accessible and least legally ambiguous techniques within the satellite hacking spectrum. It involves capturing data transmitted from satellites to Earth — often without any need to transmit or actively interfere with systems. This passive form of surveillance can reveal everything from weather satellite imagery to unencrypted communication.
 
 <h3>FREQUENCY BANDS USED IN SATELLITES</h3>
- - L-Band (1–2 GHz): Used for GPS, Iridium, and some weather satellites.
+* L-Band (1–2 GHz): Used for GPS, Iridium, and some weather satellites.
+* S-Band (2–4 GHz): Telemetry and scientific missions.
+
 
