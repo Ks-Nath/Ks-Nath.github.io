@@ -1,3 +1,4 @@
+
 ---
 title: "Downlink Interception"
 date: 2025-04-19
@@ -14,5 +15,8 @@ This blog post is intended solely for educational and informational purposes. It
 Always ensure that any experimentation or research is conducted within the bounds of the law, with proper authorization, and in accordance with local, national, and international regulations. The author(s) of this content assume no responsibility or liability for any misuse of the information provided. 
 
 <h3>WHAT</h4>
-Downlink interception is one of the most accessible and least legally ambiguous techniques within the satellite hacking spectrum. It involves capturing data transmitted from satellites to Earth — often without any need to transmit or actively interfere with systems. This passive form of surveillance can reveal everything from weather satellite imagery to unencrypted communications.
+Downlink interception is one of the most accessible and least legally ambiguous techniques within the satellite hacking spectrum. It involves capturing data transmitted from satellites to Earth — often without any need to transmit or actively interfere with systems. This passive form of surveillance can reveal everything from weather satellite imagery to unencrypted communication.
+
+<h3>FREQUENCY BANDS USED IN SATELLITES</h3>
+* L-Band (1–2 GHz): Used for GPS, Iridium, and some weather satellites.
 
