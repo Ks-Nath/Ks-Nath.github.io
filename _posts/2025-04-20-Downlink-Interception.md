@@ -20,6 +20,12 @@ Downlink interception is one of the most accessible and least legally ambiguous 
 <ul>
 	<li>L-Band (1–2 GHz): Used for GPS, Iridium, and some weather satellites.</li>
  <li>S-Band (2–4 GHz): Telemetry and scientific missions.</li>
+ <li>C-Band (4–8 GHz): Broadcast and telecoms.</li>
+	<li>X-Band (8–12 GHz): Military, radar, and deep space.</li>
+ <li>Ku/Ka-Band (12–40 GHz): Modern broadband and HD TV.</li>
 </ul>
+
+<h3>What we are about to do </h3>
+Decode real-time weather images from NOAA satellites (NOAA-15, 18, or 19) transmitting APT signals (~137 MHz) using an SDR (like RTL-SDR).
 
 
