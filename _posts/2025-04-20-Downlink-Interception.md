@@ -37,7 +37,7 @@ Decode real-time weather images from NOAA satellites (NOAA-15, 18, or 19) transm
 </ul>
 <h4>Software:</h4>
 <ul>
-	<li>rtl_fm (comes with rtl-sdr tools)<li>
+	<li>rtl_fm (comes with rtl-sdr tools)</li>
 	<li>sox (for converting audio)</li>
 	<li>WXtoImg (deprecated, but works)</li>
 	<li>SatDump (actively maintained, GUI-based)</li>
