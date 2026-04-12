@@ -3,6 +3,7 @@ title: "Novum initium"
 date: 2026-04-12
 categories: [Fun]
 tags: [Fun]
+author: author_id
 ---
 
 # Novum Initium 
