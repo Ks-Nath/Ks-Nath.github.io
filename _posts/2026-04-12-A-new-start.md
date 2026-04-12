@@ -5,7 +5,7 @@ categories: [Fun]
 tags: [Fun]
 ---
 
-# OneTap - Create instant invoices.
+# Novum Initium.
 
 <h3>WHY DID I MAKE THIS ?</h3>
 
