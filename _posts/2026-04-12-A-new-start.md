@@ -5,7 +5,7 @@ categories: [Fun]
 tags: [Fun]
 ---
 
-# Novum Initium
+# Novum Initium 
 
 <h3>WHY DID I MAKE THIS ?</h3>
 
