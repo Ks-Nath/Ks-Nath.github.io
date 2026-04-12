@@ -7,8 +7,6 @@ categories: [Economics]
 author: author_id
 ---
 
-## Why Being Busy Feels Productive (But Isn’t): An Economics Explanation
-
 I recently realized something mildly disturbing.
 
 I can be extremely busy… and still achieve nothing of real value.
