@@ -1,6 +1,6 @@
 ---
 title: "Why Being Busy Feels Productive (But Isn’t): An Economics Explanation"
-description: "Why do we feel productive when we're just busy? A light, funny take on productivity using basic economic concepts like marginal utility and diminishing returns."
+description: "Why do we feel productive when we're just busy?"
 tags: ["productivity", "economics", "self-improvement", "focus", "behavioral economics"]
 date: 2026-04-12
 categories: [Economics]
