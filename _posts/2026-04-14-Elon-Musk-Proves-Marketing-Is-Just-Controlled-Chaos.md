@@ -7,7 +7,7 @@ categories: [Economics]
 author: author_id
 ---
 
-## Elon Musk Is Not a CEO. He’s a Marketing Strategy.
+## Elon Musk Is Not a CEO. He’s a Marketing Strategy. 
 
 Most companies have a marketing department.
 
